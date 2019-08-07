@@ -1,0 +1,24 @@
+name: grammar-kit
+version: 1.0.0
+
+deps:
+  jphp-core: '*'
+  jphp-zend-ext: '*'
+
+devDeps:
+  unit-testing: '*'
+
+sources:
+- src
+
+config:
+  ignore:
+    - /sandbox/**
+    - /.idea/**
+    - /*.iml
+    - /.git/**
+    - /package.hub.yml
+    - /.gitignore
+    - /LICENSE
+    - /README.md
+    - /examples/**
